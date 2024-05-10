@@ -1,0 +1,19 @@
+.sm {
+  @apply w-[32px] h-[32px];
+}
+
+.md {
+  @apply w-[40px] h-[40px];
+}
+
+.lg {
+  @apply w-[48px] h-[48px];
+}
+
+.card {
+  @apply rounded-lg;
+}
+
+.circle {
+  @apply rounded-full;
+}

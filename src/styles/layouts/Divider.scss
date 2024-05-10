@@ -1,0 +1,29 @@
+.divider {
+  &.x {
+    @apply border-[0.5px] border-gray-light-200 dark:border-gray-dark-200;
+
+    &.sm {
+      @apply my-1;
+    }
+    &.md {
+      @apply my-3;
+    }
+    &.lg {
+      @apply my-5;
+    }
+  }
+
+  &.y {
+    @apply w-0 border-[0.5px] border-gray-light-200 dark:border-gray-dark-200;
+
+    &.sm {
+      @apply mx-1;
+    }
+    &.md {
+      @apply mx-3;
+    }
+    &.lg {
+      @apply mx-5;
+    }
+  }
+}

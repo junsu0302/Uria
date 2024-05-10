@@ -1,0 +1,28 @@
+.skeleton {
+  @apply rounded-lg animate-pulse bg-white-500 dark:bg-black-200;
+
+  &.h1 {
+    @apply h-[48px] mx-[4px] my-[12px];
+  }
+  &.h2 {
+    @apply h-[40px] mx-[4px] my-[10px];
+  }
+  &.h3 {
+    @apply h-[32px] mx-[4px] my-[8px];
+  }
+  &.h4 {
+    @apply h-[28px] mx-[4px] my-[7px];
+  }
+  &.h5 {
+    @apply h-[24px] mx-[4px] my-[6px];
+  }
+  &.lg {
+    @apply h-[18px] mx-[4px] my-[10px];
+  }
+  &.md {
+    @apply h-[16px] mx-[4px] my-[10px];
+  }
+  &.sm {
+    @apply h-[14px] mx-[4px] my-[10px];
+  }
+}

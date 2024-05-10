@@ -1,0 +1,60 @@
+@mixin Title {
+  @apply text-black-800 dark:text-white-800;
+}
+
+@mixin Content {
+  @apply text-black-800 dark:text-white-800;
+}
+
+@mixin Content-week {
+  @apply font-light text-gray-300 dark:text-gray-400;
+}
+
+.h1 {
+  @include Title;
+  @apply text-h1;
+}
+
+.h2 {
+  @include Title;
+  @apply text-h2;
+}
+
+.h3 {
+  @include Title;
+  @apply text-h3;
+}
+
+.h4 {
+  @include Title;
+  @apply text-h4;
+}
+
+.h5 {
+  @include Title;
+  @apply text-h5;
+}
+
+.content {
+  @include Content;
+  @apply text-md;
+  &.week {
+    @include Content-week;
+  }
+}
+
+.content-lg {
+  @include Content;
+  @apply text-lg;
+  &.week {
+    @include Content-week;
+  }
+}
+
+.content-sm {
+  @include Content;
+  @apply text-sm;
+  &.week {
+    @include Content-week;
+  }
+}

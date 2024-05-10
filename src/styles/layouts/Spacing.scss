@@ -1,0 +1,25 @@
+.spacing {
+  &.y {
+    &.sm {
+      @apply h-2;
+    }
+    &.md {
+      @apply h-3;
+    }
+    &.lg {
+      @apply h-4;
+    }
+  }
+
+  &.x {
+    &.sm {
+      @apply w-2;
+    }
+    &.md {
+      @apply w-3;
+    }
+    &.lg {
+      @apply w-4;
+    }
+  }
+}

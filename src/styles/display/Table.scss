@@ -1,0 +1,27 @@
+.layout {
+  @apply relative overflow-x-auto shadow-md rounded-lg;
+}
+
+table {
+  @apply w-full text-sm text-left rtl:text-right text-gray-dark-500 dark:text-gray-light-200;
+}
+
+thead {
+  @apply text-xs text-gray-700 uppercase bg-gray-light-600 dark:bg-gray-dark-500 dark:text-gray-light-200;
+}
+
+tbody {
+  @apply bg-gray-light-950 dark:bg-gray-800;
+}
+
+.divider {
+  @apply border-b border-gray-light-500 dark:border-gray-dark-500;
+}
+
+th {
+  @apply px-6 py-3;
+}
+
+td {
+  @apply px-6 py-4;
+}

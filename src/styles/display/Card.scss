@@ -1,0 +1,11 @@
+.card {
+  &.sm {
+    @apply rounded-xl;
+  }
+  &.md {
+    @apply rounded-2xl;
+  }
+  &.lg {
+    @apply rounded-3xl;
+  }
+}

@@ -14,6 +14,14 @@ const config: Config = {
       lg: { min: "1025px" }, // 태블릿 가로, 데스크탑
     },
     fontSize: {
+      xs: [
+        "12px",
+        {
+          lineHeight: "16px",
+          letterSpacing: "0",
+          fontWeight: "400",
+        },
+      ],
       sm: [
         "14px",
         {

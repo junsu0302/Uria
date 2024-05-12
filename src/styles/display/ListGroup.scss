@@ -1,0 +1,15 @@
+.ListGroup-layout {
+  @apply relative overflow-x-auto shadow-md rounded-lg border border-gray-light-600 dark:border-gray-dark-500 text-gray-dark-500 dark:text-gray-light-200;
+}
+
+.ListGroup-title {
+  @apply flex text-sm font-bold w-full px-4 py-2 justify-center text-gray-700 bg-gray-light-500 dark:bg-gray-dark-500 dark:text-gray-light-200;
+}
+
+.ListGroup-list {
+  @apply text-sm w-full px-4 py-2 bg-gray-light-950 dark:bg-gray-800;
+}
+
+.divider {
+  @apply border-b border-gray-light-500 dark:border-gray-dark-500;
+}

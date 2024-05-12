@@ -1,14 +1,14 @@
 import "@/styles/layouts/Spacing.scss";
 
 interface SpacingProps {
-  axis: "x" | "y";
+  axis?: "x" | "y";
   color?: string;
   size?: "sm" | "md" | "lg" | string;
   className?: string;
 }
 
 export default function Spacing({
-  axis,
+  axis = "y",
   color,
   size = "md",
   className,

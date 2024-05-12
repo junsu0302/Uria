@@ -1,0 +1,76 @@
+@mixin colors {
+  &.purple {
+    @apply bg-deepPurple-50 text-deepPurple-500 ring-deepPurple-700/50;
+  }
+  &.violet {
+    @apply bg-deepViolet-50 text-deepViolet-500 ring-deepViolet-700/50;
+  }
+  &.blue {
+    @apply bg-deepBlue-50 text-deepBlue-500 ring-deepBlue-700/50;
+  }
+  &.red {
+    @apply bg-deepRed-50 text-deepRed-500 ring-deepRed-700/50;
+  }
+  &.green {
+    @apply bg-deepGreen-50 text-deepGreen-600 ring-deepGreen-700/50;
+  }
+}
+
+.badge {
+  @apply ring-1 ring-inset;
+
+  &.box {
+    &.sm {
+      @apply h-[24px] px-[8px] text-xs font-medium;
+      @include colors;
+    }
+
+    &.md {
+      @apply h-[28px] px-[9px] text-sm font-medium;
+      @include colors;
+    }
+
+    &.lg {
+      @apply h-[32px] px-[10px] text-md font-medium;
+      @include colors;
+    }
+  }
+
+  &.card {
+    @apply rounded-md;
+
+    &.sm {
+      @apply h-[24px] px-[9px] text-xs font-medium;
+      @include colors;
+    }
+
+    &.md {
+      @apply h-[28px] px-[10px] text-sm font-medium;
+      @include colors;
+    }
+
+    &.lg {
+      @apply h-[32px] px-[11px] text-md font-medium;
+      @include colors;
+    }
+  }
+
+  &.pill {
+    @apply rounded-full;
+
+    &.sm {
+      @apply h-[24px] px-[10px] text-xs font-medium;
+      @include colors;
+    }
+
+    &.md {
+      @apply h-[28px] px-[11px] text-sm font-medium;
+      @include colors;
+    }
+
+    &.lg {
+      @apply h-[32px] px-[12px] text-md font-medium;
+      @include colors;
+    }
+  }
+}

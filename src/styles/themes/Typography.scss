@@ -35,7 +35,7 @@
   @apply text-h5;
 }
 
-.content {
+.md {
   @include Content;
   @apply text-md;
   &.week {
@@ -43,7 +43,7 @@
   }
 }
 
-.content-lg {
+.lg {
   @include Content;
   @apply text-lg;
   &.week {
@@ -51,7 +51,7 @@
   }
 }
 
-.content-sm {
+.sm {
   @include Content;
   @apply text-sm;
   &.week {

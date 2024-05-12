@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
+import IconButton from "@/shared/forms/IconButton";
 
 const DarkModeButton = () => {
   const [mounted, setMounted] = useState(false);
@@ -15,12 +16,11 @@ const DarkModeButton = () => {
   }
 
   return (
-    <button
-      className="Icon w-[40px] h-[40px]"
+    <IconButton
       onClick={(e) => (theme === "dark" ? setTheme("light") : setTheme("dark"))}
     >
       {theme === "dark" ? <IconDark /> : <IconLight />}
-    </button>
+    </IconButton>
   );
 };
 

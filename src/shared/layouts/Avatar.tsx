@@ -19,7 +19,7 @@ export default function Avatar({
   className,
 }: AvatarProps) {
   return (
-    <Center className={`${type} ${shape} ${color} ${size} ${className}`}>
+    <Center className={`Avatar ${type} ${shape} ${color} ${size} ${className}`}>
       {children}
     </Center>
   );

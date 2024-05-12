@@ -17,7 +17,7 @@
       @apply h-[48px] text-lg font-medium rounded-xl px-[16px];
     }
     &.md {
-      @apply h-[40px] text-md font-medium rounded-lg px-[14px];
+      @apply h-[40px] text-md font-medium rounded-[10px] px-[14px];
     }
     &.sm {
       @apply h-[32px] text-sm font-medium rounded-lg px-[12px];
@@ -39,72 +39,72 @@
     &.purple {
       @apply text-deepPurple-50 border-[0.5px] border-lightPurple-500 bg-lightPurple-500;
       &:hover {
-        @apply bg-lightPurple-600 border-lightPurple-600;
+        @apply bg-softPurple-400 border-softPurple-400 dark:bg-lightPurple-600 dark:border-lightPurple-600;
       }
     }
 
     &.violet {
       @apply text-deepViolet-50 border-[0.5px] border-lightViolet-500 bg-lightViolet-500;
       &:hover {
-        @apply bg-lightViolet-600 border-lightViolet-600;
+        @apply bg-softViolet-400 border-softViolet-400 dark:bg-lightViolet-600 dark:border-lightViolet-600;
       }
     }
 
     &.blue {
       @apply text-deepBlue-50 border-[0.5px] border-lightBlue-500 bg-lightBlue-500;
       &:hover {
-        @apply bg-lightBlue-600 border-lightBlue-600;
+        @apply bg-softBlue-400 border-softBlue-400 dark:bg-lightBlue-600 dark:border-lightBlue-600;
       }
     }
 
     &.red {
       @apply text-deepRed-50 border-[0.5px] border-lightRed-500 bg-lightRed-500;
       &:hover {
-        @apply bg-lightRed-600 border-lightRed-600;
+        @apply bg-softRed-400 border-softRed-400 dark:bg-lightRed-600 dark:border-lightRed-600;
       }
     }
 
     &.green {
       @apply text-deepGreen-50 border-[0.5px] border-lightGreen-500 bg-lightGreen-500;
       &:hover {
-        @apply bg-lightGreen-600 border-lightGreen-600;
+        @apply bg-softGreen-400 border-softGreen-400 dark:bg-lightGreen-600 dark:border-lightGreen-600;
       }
     }
   }
 
   &.outline {
     &.purple {
-      @apply border-[0.5px] border-softPurple-500 text-softPurple-500 dark:border-deepPurple-200 dark:text-deepPurple-200;
+      @apply border-[0.5px] bg-deepPurple-50 dark:bg-deepPurple-500/30 border-softPurple-500 text-softPurple-500 dark:border-deepPurple-200 dark:text-deepPurple-200;
       &:hover {
-        @apply bg-lightPurple-100/50 dark:bg-lightPurple-700;
+        @apply bg-lightPurple-100/70 dark:bg-lightPurple-600;
       }
     }
 
     &.violet {
-      @apply border-[0.5px] border-softViolet-500 text-softViolet-500 dark:border-deepViolet-200 dark:text-deepViolet-200;
+      @apply border-[0.5px] bg-deepViolet-50 dark:bg-deepViolet-500/30 border-softViolet-500 text-softViolet-500 dark:border-deepViolet-200 dark:text-deepViolet-200;
       &:hover {
-        @apply bg-lightViolet-100/50 dark:bg-lightViolet-700;
+        @apply bg-lightViolet-100/70 dark:bg-lightViolet-600;
       }
     }
 
     &.blue {
-      @apply border-[0.5px] border-softBlue-500 text-softBlue-500 dark:border-deepBlue-200 dark:text-deepBlue-200;
+      @apply border-[0.5px] bg-deepBlue-50 dark:bg-deepBlue-500/30 border-softBlue-500 text-softBlue-500 dark:border-deepBlue-200 dark:text-deepBlue-200;
       &:hover {
-        @apply bg-lightBlue-100/50 dark:bg-lightBlue-700;
+        @apply bg-lightBlue-100/70 dark:bg-lightBlue-600;
       }
     }
 
     &.red {
-      @apply border-[0.5px] border-softRed-500 text-softRed-500 dark:border-deepRed-200 dark:text-deepRed-200;
+      @apply border-[0.5px] bg-deepRed-50 dark:bg-deepRed-500/30 border-softRed-500 text-softRed-500 dark:border-deepRed-200 dark:text-deepRed-200;
       &:hover {
-        @apply bg-lightRed-100/50 dark:bg-lightRed-700;
+        @apply bg-lightRed-100/70 dark:bg-lightRed-600;
       }
     }
 
     &.green {
-      @apply border-[0.5px] border-softGreen-500 text-softGreen-500 dark:border-deepGreen-200 dark:text-deepGreen-200;
+      @apply border-[0.5px] bg-deepGreen-50 dark:bg-deepGreen-500/30 border-softGreen-500 text-softGreen-500 dark:border-deepGreen-200 dark:text-deepGreen-200;
       &:hover {
-        @apply bg-lightGreen-100/50 dark:bg-lightGreen-700;
+        @apply bg-lightGreen-100/70 dark:bg-lightGreen-600;
       }
     }
   }

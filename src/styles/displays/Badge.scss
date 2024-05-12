@@ -1,23 +1,23 @@
 @mixin colors {
   &.purple {
-    @apply bg-deepPurple-50 text-deepPurple-500 ring-deepPurple-700/50;
+    @apply bg-deepPurple-50 text-deepPurple-500 ring-deepPurple-700/50 dark:bg-deepPurple-500/30 dark:text-deepPurple-200 dark:ring-deepPurple-200;
   }
   &.violet {
-    @apply bg-deepViolet-50 text-deepViolet-500 ring-deepViolet-700/50;
+    @apply bg-deepViolet-50 text-deepViolet-500 ring-deepViolet-700/50 dark:bg-deepViolet-500/30 dark:text-deepViolet-200 dark:ring-deepViolet-200;
   }
   &.blue {
-    @apply bg-deepBlue-50 text-deepBlue-500 ring-deepBlue-700/50;
+    @apply bg-deepBlue-50 text-deepBlue-500 ring-deepBlue-700/50 dark:bg-deepBlue-500/30 dark:text-deepBlue-200 dark:ring-deepBlue-200;
   }
   &.red {
-    @apply bg-deepRed-50 text-deepRed-500 ring-deepRed-700/50;
+    @apply bg-deepRed-50 text-deepRed-500 ring-deepRed-700/50 dark:bg-deepRed-500/30 dark:text-deepRed-200 dark:ring-deepRed-200;
   }
   &.green {
-    @apply bg-deepGreen-50 text-deepGreen-600 ring-deepGreen-700/50;
+    @apply bg-deepGreen-50 text-deepGreen-600 ring-deepGreen-700/50 dark:bg-deepGreen-500/30 dark:text-deepGreen-200 dark:ring-deepGreen-200;
   }
 }
 
 .badge {
-  @apply ring-1 ring-inset;
+  @apply ring-[1.5px] ring-inset;
 
   &.box {
     &.sm {

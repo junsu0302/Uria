@@ -1,0 +1,173 @@
+.Button {
+  @apply place-items-center cursor-pointer;
+
+  &.box {
+    &.lg {
+      @apply h-[48px] text-lg font-medium px-[16px];
+    }
+    &.md {
+      @apply h-[40px] text-md font-medium px-[14px];
+    }
+    &.sm {
+      @apply h-[32px] text-sm font-medium px-[12px];
+    }
+  }
+  &.card {
+    &.lg {
+      @apply h-[48px] text-lg font-medium rounded-xl px-[16px];
+    }
+    &.md {
+      @apply h-[40px] text-md font-medium rounded-lg px-[14px];
+    }
+    &.sm {
+      @apply h-[32px] text-sm font-medium rounded-lg px-[12px];
+    }
+  }
+  &.pill {
+    &.lg {
+      @apply h-[48px] text-lg font-medium rounded-full px-[16px];
+    }
+    &.md {
+      @apply h-[40px] text-md font-medium rounded-full px-[14px];
+    }
+    &.sm {
+      @apply h-[32px] text-sm font-medium rounded-full px-[12px];
+    }
+  }
+
+  &.filled {
+    &.purple {
+      @apply text-deepPurple-50 border-[0.5px] border-lightPurple-500 bg-lightPurple-500;
+      &:hover {
+        @apply bg-lightPurple-600 border-lightPurple-600;
+      }
+    }
+
+    &.violet {
+      @apply text-deepViolet-50 border-[0.5px] border-lightViolet-500 bg-lightViolet-500;
+      &:hover {
+        @apply bg-lightViolet-600 border-lightViolet-600;
+      }
+    }
+
+    &.blue {
+      @apply text-deepBlue-50 border-[0.5px] border-lightBlue-500 bg-lightBlue-500;
+      &:hover {
+        @apply bg-lightBlue-600 border-lightBlue-600;
+      }
+    }
+
+    &.red {
+      @apply text-deepRed-50 border-[0.5px] border-lightRed-500 bg-lightRed-500;
+      &:hover {
+        @apply bg-lightRed-600 border-lightRed-600;
+      }
+    }
+
+    &.green {
+      @apply text-deepGreen-50 border-[0.5px] border-lightGreen-500 bg-lightGreen-500;
+      &:hover {
+        @apply bg-lightGreen-600 border-lightGreen-600;
+      }
+    }
+  }
+
+  &.outline {
+    &.purple {
+      @apply border-[0.5px] border-softPurple-500 text-softPurple-500 dark:border-deepPurple-200 dark:text-deepPurple-200;
+      &:hover {
+        @apply bg-lightPurple-100/50 dark:bg-lightPurple-700;
+      }
+    }
+
+    &.violet {
+      @apply border-[0.5px] border-softViolet-500 text-softViolet-500 dark:border-deepViolet-200 dark:text-deepViolet-200;
+      &:hover {
+        @apply bg-lightViolet-100/50 dark:bg-lightViolet-700;
+      }
+    }
+
+    &.blue {
+      @apply border-[0.5px] border-softBlue-500 text-softBlue-500 dark:border-deepBlue-200 dark:text-deepBlue-200;
+      &:hover {
+        @apply bg-lightBlue-100/50 dark:bg-lightBlue-700;
+      }
+    }
+
+    &.red {
+      @apply border-[0.5px] border-softRed-500 text-softRed-500 dark:border-deepRed-200 dark:text-deepRed-200;
+      &:hover {
+        @apply bg-lightRed-100/50 dark:bg-lightRed-700;
+      }
+    }
+
+    &.green {
+      @apply border-[0.5px] border-softGreen-500 text-softGreen-500 dark:border-deepGreen-200 dark:text-deepGreen-200;
+      &:hover {
+        @apply bg-lightGreen-100/50 dark:bg-lightGreen-700;
+      }
+    }
+  }
+
+  &.disabled {
+    @apply opacity-50 cursor-not-allowed;
+    &.filled {
+      &.purple {
+        @apply border-[0.5px] border-lightPurple-500 bg-lightPurple-500;
+        &:hover {
+          @apply bg-lightPurple-600 border-lightPurple-600;
+        }
+      }
+
+      &.violet {
+        @apply border-[0.5px] border-lightViolet-500 bg-lightViolet-500;
+        &:hover {
+          @apply bg-lightViolet-600 border-lightViolet-600;
+        }
+      }
+
+      &.blue {
+        @apply border-[0.5px] border-lightBlue-500 bg-lightBlue-500;
+        &:hover {
+          @apply bg-lightBlue-600 border-lightBlue-600;
+        }
+      }
+
+      &.red {
+        @apply border-[0.5px] border-lightRed-500 bg-lightRed-500;
+        &:hover {
+          @apply bg-lightRed-600 border-lightRed-600;
+        }
+      }
+
+      &.green {
+        @apply border-[0.5px] border-lightGreen-500 bg-lightGreen-500;
+        &:hover {
+          @apply bg-lightGreen-600 border-lightGreen-600;
+        }
+      }
+    }
+
+    &.outline {
+      &.purple {
+        @apply border-[0.5px] border-deepPurple-200 text-deepPurple-200;
+      }
+
+      &.violet {
+        @apply border-[0.5px] border-deepViolet-200 text-deepViolet-200;
+      }
+
+      &.blue {
+        @apply border-[0.5px] border-deepBlue-200 text-deepBlue-200;
+      }
+
+      &.red {
+        @apply border-[0.5px] border-deepRed-200 text-deepRed-200;
+      }
+
+      &.green {
+        @apply border-[0.5px] border-deepGreen-200 text-deepGreen-200;
+      }
+    }
+  }
+}

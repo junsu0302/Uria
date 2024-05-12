@@ -1,4 +1,4 @@
-import "@/styles/display/Card.scss";
+import "@/styles/displays/Card.scss";
 import Box from "../layouts/Box";
 
 interface CardProps {

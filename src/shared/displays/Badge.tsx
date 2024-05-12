@@ -1,4 +1,4 @@
-import "@/styles/display/Badge.scss";
+import "@/styles/displays/Badge.scss";
 import Center from "../layouts/Center";
 
 interface BadgeProps {

@@ -1,5 +1,4 @@
-import "@/styles/display/ListGroup.scss";
-import Card from "./Card";
+import "@/styles/displays/ListGroup.scss";
 
 interface CardProps {
   title?: string;

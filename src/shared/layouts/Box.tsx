@@ -2,7 +2,7 @@ import "@/styles/layouts/Box.scss";
 
 interface BoxProps {
   children?: React.ReactNode;
-  type?: "deep" | "soft" | "light" | "background" | string;
+  type?: "deep" | "soft" | "light" | "background" | "basic" | string;
   color?: string;
   size?: string;
   className?: string;
@@ -16,6 +16,8 @@ export default function Box({
   className,
 }: BoxProps) {
   return (
-    <div className={`${type} ${color} ${size} ${className}`}>{children}</div>
+    <div className={`Box ${type} ${color} ${size} ${className}`}>
+      {children}
+    </div>
   );
 }

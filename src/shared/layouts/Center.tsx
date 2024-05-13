@@ -3,7 +3,7 @@ import Box from "./Box";
 
 interface CenterProps {
   children?: React.ReactNode;
-  type?: "deep" | "soft" | "light" | "background" | string;
+  type?: "deep" | "soft" | "light" | "background" | "basic" | string;
   color?: string;
   size?: string;
   className?: string;

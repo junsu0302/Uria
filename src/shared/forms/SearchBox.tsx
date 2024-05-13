@@ -21,7 +21,9 @@ export default function SearchBox({ size }: SearchBoxProps) {
 export function IconSearch() {
   return (
     <svg
-      className="w-4 h-4 text-gray-dark-200 dark:text-gray-light-200"
+      className="text-gray-dark-200 dark:text-gray-light-200"
+      width="16px"
+      height="16px"
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
       fill="none"

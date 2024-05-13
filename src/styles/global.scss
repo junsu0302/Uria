@@ -5,3 +5,15 @@
 .padding {
   @apply px-2.5 py-1;
 }
+
+@mixin FilledArea {
+  @apply bg-gray-light-800 dark:bg-gray-dark-500 shadow-md;
+}
+
+@mixin BorderedArea {
+  @apply border-[1.5px] border-gray-light-200 dark:border-gray-dark-50 shadow-md;
+}
+
+@mixin TextStyle {
+  @apply px-2.5 py-3 text-sm text-gray-dark-800 dark:text-gray-light-800;
+}

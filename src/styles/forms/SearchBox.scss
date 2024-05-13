@@ -1,8 +1,13 @@
+@import "@/styles/global.scss";
+
 .SearchBox {
   &.layout {
-    @apply flex rounded-full bg-gray-light-800 dark:bg-gray-dark-500 dark:border-gray-500 dark:text-white-500 shadow-md;
+    @include FilledArea;
+    @apply flex rounded-full;
   }
   .input-box {
-    @apply px-[20px] outline-none rounded-full w-full p-3 text-sm bg-gray-light-800 dark:bg-gray-dark-500 text-gray-dark-800 dark:text-gray-light-800;
+    @include FilledArea;
+    @include TextStyle;
+    @apply px-[20px] py-[12px] outline-none rounded-full w-full;
   }
 }

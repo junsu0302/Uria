@@ -1,0 +1,25 @@
+.InputBox {
+  @apply block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-800 bg-transparent rounded-lg border-[1.5px] border-gray-light-200 dark:text-white-500 dark:border-gray-dark-50;
+  &.info {
+    @apply dark:focus:border-deepBlue-500 focus:outline-none focus:border-deepBlue-500;
+  }
+  &.danger {
+    @apply dark:focus:border-deepRed-500 focus:outline-none focus:border-deepRed-500;
+  }
+  &.success {
+    @apply dark:focus:border-deepGreen-500 focus:outline-none focus:border-deepGreen-500;
+  }
+}
+
+.InputLabel {
+  @apply absolute text-sm text-gray-dark-500 dark:text-gray-light-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white-950 dark:bg-black-500 px-1 peer-focus:px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto start-1;
+  &.info {
+    @apply peer-focus:text-deepBlue-500 peer-focus:dark:text-deepBlue-500;
+  }
+  &.danger {
+    @apply peer-focus:text-deepRed-500 peer-focus:dark:text-deepRed-500;
+  }
+  &.success {
+    @apply peer-focus:text-deepGreen-500 peer-focus:dark:text-deepGreen-500;
+  }
+}

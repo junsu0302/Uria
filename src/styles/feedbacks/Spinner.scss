@@ -1,0 +1,28 @@
+.Spinner {
+  @apply inline-block rounded-full border-l-transparent dark:border-l-transparent border-gray-dark-500 dark:border-gray-light-800;
+  animation: spin;
+  animation-duration: 750ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  &.sm {
+    @apply w-[24px] h-[24px] border-[2px];
+  }
+
+  &.md {
+    @apply w-[32px] h-[32px] border-[2.5px];
+  }
+
+  &.lg {
+    @apply w-[40px] h-[40px] border-[3px];
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
